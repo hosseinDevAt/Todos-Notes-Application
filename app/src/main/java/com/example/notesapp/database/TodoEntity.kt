@@ -1,5 +1,6 @@
 package com.example.notesapp.database
 
+import android.annotation.SuppressLint
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
@@ -22,4 +23,5 @@ data class TodoEntity(
     val recycle : Boolean = false
 )
 
-val TodoEntity.addDate: String get() = SimpleDateFormat("yyyy/MM/dd hh:mm").format(Date(added))
+val TodoEntity.addDate: String @SuppressLint("SimpleDateFormat")
+get() = SimpleDateFormat("yyyy/MM/dd hh:mm").format(Date(added))
