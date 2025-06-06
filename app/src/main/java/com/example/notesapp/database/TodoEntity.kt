@@ -13,7 +13,7 @@ data class TodoEntity(
     @ColumnInfo("title")
     val title: String,
     @ColumnInfo("detail")
-    val detail: String,
+    val detail: String = "",
     @ColumnInfo("done")
     val done: Boolean = false,
     @ColumnInfo("added")
