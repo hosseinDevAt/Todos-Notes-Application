@@ -5,13 +5,19 @@
 
 ### Technologies: 
 #### jetpack-compose / mvvm / clean-architecture / room-database
+
+### New Features:
+
+1. You can now update your todos or notes by **long-pressing** on an item.  
+2. You can view your deleted todos in the **Recycle Bin** page.  
+3. In the Recycle Bin page, you can either **restore** items or **delete them permanently**.  
+4. You can **delete all items permanently** with a single button in the Recycle Bin page.
+
+To watch a video demo of this application and see all of its features, click on the image below — the video will start downloading automatically.
+
+To test the app yourself, you can download and install it from the **Releases** section.
+
  &nbsp;&nbsp;&nbsp;
 <p align="center">
-  <img src="https://github.com/hosseinDevAt/Todos-Notes-Application-/blob/d3677daa4e3b59819723fe37508a5f09403f118f/1.png" width="180" />
-   &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/hosseinDevAt/Todos-Notes-Application-/blob/d3677daa4e3b59819723fe37508a5f09403f118f/2.png" width="185" />
-   &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/hosseinDevAt/Todos-Notes-Application-/blob/d3677daa4e3b59819723fe37508a5f09403f118f/3.png" width="185" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/hosseinDevAt/Todos-Notes-Application-/blob/d3677daa4e3b59819723fe37508a5f09403f118f/4.png" width="185" />
+  <a href="https://github.com/hosseinDevAt/Todos-Notes-Application/releases/download/video/video.mp4"><img src="https://github.com/hosseinDevAt/Todos-Notes-Application/blob/fd27cf95874bafd32448389f6fa6d9c2d231d449/1.png" width="380" /></a>
 </p>
