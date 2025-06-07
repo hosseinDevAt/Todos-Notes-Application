@@ -24,4 +24,13 @@ interface TodoDAO {
 
     @Delete
     fun deleteTodo(todo: TodoEntity)
+
+    @Query("UPDATE `todos` SET recycle = 1 WHERE id = :id")
+    fun firstDeleteTodo(id : Int)
+
+    @Query("UPDATE `todos` SET recycle = 0 WHERE id = :id")
+    fun backTodo(id : Int)
+
+    @Query("DELETE FROM `todos`")
+    fun deleteAll()
 }

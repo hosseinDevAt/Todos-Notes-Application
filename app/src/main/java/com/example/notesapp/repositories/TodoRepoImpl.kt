@@ -12,5 +12,8 @@ class TodoRepoImpl(private val database: TodoDatabase): TodoRepo {
     override suspend fun addTodo(todo: TodoEntity) = dao.addTodo(todo)
     override suspend fun updateTodo(todo: TodoEntity) = dao.updateTodo(todo)
     override suspend fun deleteTodo(todo: TodoEntity) = dao.deleteTodo(todo)
+    override suspend fun deleteTodoItem(id: Int) = dao.firstDeleteTodo(id)
+    override suspend fun backFromRecycle(id: Int) = dao.backTodo(id)
+    override suspend fun deleteAllTodos() = dao.deleteAll()
 
 }

@@ -9,4 +9,7 @@ interface TodoRepo {
     suspend fun addTodo(todo: TodoEntity)
     suspend fun updateTodo(todo: TodoEntity)
     suspend fun deleteTodo(todo: TodoEntity)
+    suspend fun deleteTodoItem(id : Int)
+    suspend fun backFromRecycle(id : Int)
+    suspend fun deleteAllTodos()
 }
